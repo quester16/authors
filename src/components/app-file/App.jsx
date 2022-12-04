@@ -1,5 +1,6 @@
 import { Component } from 'react'
-import Gogol from '../gogol/gogol'
+
+import Pushkin from '../pushkin/pushkin'
 
 import './App.css'
 
@@ -15,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Gogol />
+        <Pushkin />
       </div>
     )
   }

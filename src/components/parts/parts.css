@@ -5,9 +5,10 @@
   grid-template-columns: 30% 70%;
   grid-template-rows: 20% 70% 10%;
   position: relative;
+
+  z-index: 12;
 }
 
-/* 
 .gogol {
   background-image: url("../imgs/gogol.jpg");
   position: absolute;
@@ -47,7 +48,7 @@ header {
   width: 840px;
   height: 140px;
   margin: 20px auto 0;
-} */
+}
 
 main {
   grid-row-start: 2;
@@ -76,7 +77,6 @@ main {
   cursor: pointer;
 }
 
-/* 
 aside {
   position: relative;
   grid-row-start: 1;
@@ -142,9 +142,8 @@ footer {
   top: 50%;
   left: 10px;
 
-} */
+}
 
-/* 
 .logo {
   background-image: url('../imgs/logo.png');
   height: 180px;
@@ -152,4 +151,4 @@ footer {
   background-position: center;
   background-size: contain;
   margin-bottom: 40px;
-} */
+}
