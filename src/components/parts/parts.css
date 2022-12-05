@@ -9,29 +9,49 @@
   z-index: 12;
 }
 
-.gogol {
-  background-image: url("../imgs/gogol.jpg");
+
+.author {
+  height: 679px;
+  width: 403.15625px;
   position: absolute;
   left: 73.66%;
-  right: -4.01%;
-  top: 39.33%;
+  right: 0px;
   bottom: 0.25%;
 
   opacity: 0.75;
 
 }
 
-.gogol-left {
-  background-image: url('../imgs/gogol-left.jpg');
-
+.author img {
+  width: 100%;
+  height: 100%;
   position: absolute;
-  left: 73.47%;
-  right: 2.8%;
-  top: 39.28%;
+  right: -215px;
   bottom: 0%;
 
-  opacity: 0.7;
-  z-index: 12;
+  opacity: 0.75;
+}
+
+.author-left {
+  height: 679px;
+  width: 403.15625px;
+  position: absolute;
+  right: 0px;
+  bottom: 5%;
+
+  opacity: 0.8;
+
+}
+
+.author-left img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: -265px;
+
+  bottom: -42px;
+
+  opacity: 0.75;
 }
 
 header {

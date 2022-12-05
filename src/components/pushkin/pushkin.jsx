@@ -4,13 +4,14 @@ import './pushkin.css'
 import Header from '../parts/header'
 import Footer from '../parts/footer'
 import Aside from '../parts/aside'
+import AuthorBg from '../parts/bg-autor'
 
 const Pushkin = () => {
   return (
     <div className="wrapper">
-      <div className="gogol"></div>
-      <div className="gogol-left"></div>
 
+      <div className="author"></div>
+      <div className="author-left"></div>
       <Header />
       <Aside />
       <main>
